@@ -4,11 +4,12 @@
  * and open the template in the editor.
  */
 package DAO;
-
-/**
- *
- * @author User
- */
+import java.sql.*;
+import javax.swing.JOptionPane;
 public class Conexao {
     
-}
+
+         
+     }
+ 
+

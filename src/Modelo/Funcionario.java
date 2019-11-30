@@ -10,5 +10,10 @@ package Modelo;
  * @author ELAIO
  */
 public class Funcionario {
+  
+    private int codigo;
+     private String nome;
+     private String login;
+     private String senha;
     
 }

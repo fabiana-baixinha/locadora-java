@@ -16,5 +16,4 @@ public class DVD {
     private String situacao;
     private double preco;
     private String data_comprar;
-    
 }
