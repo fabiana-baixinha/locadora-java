@@ -19,11 +19,10 @@ public class Conexao {
           JOptionPane.showMessageDialog(null, "Erro na conexão com o banco",
              "Video locadora",JOptionPane.ERROR_MESSAGE);
             e.getMessage();
-            
-     }
+      }  
        return con;
        }
-    public static void FecharConexao(Connection con) {
+     public static void FecharConexao(Connection con) {
         try {
             con.close();
         }catch (Exception e){
