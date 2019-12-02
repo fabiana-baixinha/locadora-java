@@ -5,10 +5,7 @@
  */
 package DAO;
 
-/**
- *
- * @author User
- */
+
 public class AluguelDAO {
     
 }
