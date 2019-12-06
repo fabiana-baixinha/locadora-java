@@ -8,12 +8,12 @@ import java.sql.*;
 import javax.swing.JOptionPane;
 
 public class Conexao {
-    public static Connection AbrirConexao() throws ClassNotFoundException{
+    public static Connection AbrirConexao(){
       Connection con = null;
       try {
-          Class.forName("com.mysql.jdbc.Drive");
+          Class.forName("com.mysql.jdbc.Driver");
           String url = "jdbc:mysql://localhost/locadora";
-          con = DriverManager.getConnection(url,"root", "123");
+          con = DriverManager.getConnection(url,"root", "");
      
       } catch (Exception e){
           JOptionPane.showMessageDialog(null, "Erro na conexão com o banco",

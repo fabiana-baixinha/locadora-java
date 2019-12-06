@@ -26,6 +26,7 @@ public class ClassificacaoDAO extends ExecuteSQL{
            a.setPreco(rs.getDouble(2));
            finalResult = true;
            
+           
        }   
       }
       

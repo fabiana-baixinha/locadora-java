@@ -21,19 +21,19 @@ public class Aluguel {
     }
 
     public void setCodcliente(int codcliente) {
-        this.codcliente = codcliente;
+        this.Codcliente = codcliente;
     }
 
     public void setData_aluguel(String data_aluguel) {
-        this.data_aluguel = data_aluguel;
+        this.Data_aluguel = data_aluguel;
     }
 
     public void setHorario(String horario) {
-        this.horario = horario;
+        this.Horario = horario;
     }
 
     public void setData_devolucao(String data_devolucao) {
-        this.data_devolucao = data_devolucao;
+        this.Data_devolucao = data_devolucao;
     }
 
     public int getCod() {
@@ -45,25 +45,25 @@ public class Aluguel {
     }
 
     public int getCodcliente() {
-        return codcliente;
+        return Codcliente;
     }
 
     public String getData_aluguel() {
-        return data_aluguel;
+        return Data_aluguel;
     }
 
     public String getHorario() {
-        return horario;
+        return Horario;
     }
 
     public String getData_devolucao() {
-        return data_devolucao;
+        return Data_devolucao;
     }
       private int coddvd;
-        private int codcliente;
-        private String data_aluguel;
-        private String horario;
-        private String data_devolucao;
+        private int Codcliente;
+        private String Data_aluguel;
+        private String Horario;
+        private String Data_devolucao;
         
     
 }
